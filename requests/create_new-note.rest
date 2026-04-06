@@ -1,0 +1,12 @@
+GET http://localhost:3001/api/notes/
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json;
+
+
+{
+    "content": "postman is good for testing",
+    "important": true
+}
